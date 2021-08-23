@@ -108,7 +108,7 @@ class Page2 extends StatelessWidget {
         child: TextButton(
           onPressed: () {},
           child: Text(
-            'Bienvenido',
+            'Bienvenidos',
             style: TextStyle(
               color: Colors.white,
               fontSize: 40.0,
