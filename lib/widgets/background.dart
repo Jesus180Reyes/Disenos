@@ -25,7 +25,7 @@ class BackgroundScreen extends StatelessWidget {
 
           Positioned(
             top: -100,
-            left: -12,
+            left: -1,
             child: PinkBox(),
           ),
         ],

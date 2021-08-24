@@ -1,4 +1,6 @@
+import 'package:disenos/screens/card_table.dart';
 import 'package:disenos/widgets/background.dart';
+import 'package:disenos/widgets/custom_bottom_navigation.dart';
 import 'package:disenos/widgets/page_title.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +14,7 @@ class HomeScreen extends StatelessWidget {
           _HomeBody(),
         ],
       ),
+      bottomNavigationBar: CustomButtonNavigation(),
     );
   }
 }
@@ -24,6 +27,8 @@ class _HomeBody extends StatelessWidget {
         children: [
           //Titulos
           PageTile(),
+          //Card Table
+          CardTable(),
         ],
       ),
     );
