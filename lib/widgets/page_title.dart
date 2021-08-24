@@ -18,7 +18,7 @@ class PageTile extends StatelessWidget {
             Text(
               'Classify Transaction',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 25,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
